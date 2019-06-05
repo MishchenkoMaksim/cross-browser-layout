@@ -1,6 +1,6 @@
 ﻿body {
     margin: 0;
-    padding: 0;
+    padding: 0 10px 0 10px;
     overflow-x: hidden;
 }
 
@@ -84,6 +84,55 @@ nav div:nth-child(odd) {
     background-size: cover;
 }
 
+                /*BLOCKS*/
+
+
+.blocks{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 500px;
+    grid-gap: 20px;
+    font-family: Arial;
+}
+
+.blocks article h3, p {
+    padding: 0 10px 0 10px;
+    color: gray;
+}
+
+.blocks article h3 a{
+    color: gray;
+}
+
+.blocks a {
+    color: #4C4545;
+}
+
+.blocks a:hover {
+    color: white;
+    background-color: #4C4545;
+    border-radius: 2px;
+}
+
+.blocks article .img {
+    background-size: contain;
+    height: 200px;
+}
+
+.blocks article:nth-child(1) .img {
+    background-image: url(imgHW/4M.jpg);
+}
+
+.blocks article:nth-child(2) .img {
+    background-image: url(imgHW/Ruis.jpg);
+}
+
+.blocks article:nth-child(3) .img {
+    background-image: url(imgHW/bilich.jpg);
+}
+
+.blocks article:nth-child(4) .img {
+    background-image: url(imgHW/hames.jpg);
+}
 
 
 
