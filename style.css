@@ -50,32 +50,23 @@ nav div {
     height: 100%;
 }
 
-nav div:nth-child(1) {
-    border-right: 1px solid white;\
-}
-
-nav div:nth-child(3) {
-    border-right: 1px solid white;
-}
-
-nav div:nth-child(5) {
-    border-right: 1px solid white;
-}
-
-nav div:nth-child(7) {
+nav div:nth-child(odd) {
     border-right: 1px solid white;
 }
 
             /*INFO*/
 
 
-.info{
+.info {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 400px;
+    font-family: Arial;
+    color: gray;
 }
 
-.info article{
-    border: 1px solid black;
+.description{
+    padding-left: 45px;
+    line-height: 30px;
 }
 
 .info article:nth-child(3){
@@ -83,8 +74,17 @@ nav div:nth-child(7) {
 }
 
 .news{
-    height: 70px;
+    height: 50px;
+    font-size: 45px;
+    padding-left: 20px;
 }
+
+.image{
+    background-image: url(imgHW/football.jpg);
+    background-size: cover;
+}
+
+
 
 
 
