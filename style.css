@@ -4,8 +4,9 @@
     overflow-x: hidden;
 }
 
-a{
+a {
     text-decoration: none;
+    transition: all 0.6s ease;
 }
 
 .grid{
@@ -23,6 +24,10 @@ header{
     font-size: 50px;
     color: green;
     margin-left: 30px;
+}
+
+.header a:hover{
+    font-size: 55px;
 }
 
 .header span{
@@ -44,6 +49,10 @@ nav a{
     font-size: 18px;
     text-align: center;
     align-self: center;
+}
+
+nav a:hover{
+    font-size: 20px;
 }
 
 nav div {
